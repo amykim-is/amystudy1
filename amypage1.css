@@ -1,0 +1,54 @@
+html, body {margin: 0; padding: 0;}
+body{overflow-x: hidden;}
+h1,h2,h3,h4,h5,h6,p{margin: 0; padding: 0;}
+button{border: none; background-color: transparent;}
+#intro {
+    width: 100%;
+    height: 1600px;
+    background-image:url(14/KidsGao/img/intro/intro_bg.png);
+}
+#intro .introwrap{
+    position: relative;
+    width: 760px;
+    height: 516px;
+    background-color: yellow;
+    left: 50%;
+    margin-left: -380px;
+}
+#intro .introwrap .logo{
+    position: absolute;
+    width:760px;
+    height: 516px;
+    background-image: url(14/KidsGao/img/intro/logo.png);
+    z-index: 100;
+}
+#intro .introwrap .lion{
+    position: absolute;
+    width: 161px;
+    height: 161px;
+    background-image: url(14/KidsGao/img/intro/lion.png);
+    margin: 80px 0 0 30px;
+}
+#intro .introwrap .rabbit{
+    position: absolute;
+    width: 105px;
+    height: 129px;
+    background-image: url(14/KidsGao/img/intro/rabbit.png);
+    margin: 90px 0 0 580px;
+}
+#intro .introwrap .bear{
+    position: absolute;
+    width: 112px;
+    height: 105px;
+    background-image: url(14/KidsGao/img/intro/bear.png);
+    margin: 310px 0 0 560px;
+    z-index: 200;
+}
+#intro .introwrap .monkey{
+    position: absolute;
+    width: 85px;
+    height: 93px;
+    background-image: url(14/KidsGao/img/intro/monkey.png);
+    margin: 310px 0 0 50px;
+    z-index: 200;
+}

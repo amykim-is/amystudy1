@@ -1,0 +1,248 @@
+html, body {margin: 0; padding: 0;}
+.manu {
+    top:0;
+    background-color: #292a2c;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    z-index: 999;
+}
+.grid1{
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.grid2 {
+    padding-right: 100px;
+    display: flex;  
+    height: auto;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.logo {
+    background: url(img/gnb_ace_logo.png) no-repeat;
+    width:78px;
+    height: 60px;
+    background-size: 80%;
+    background-position: center;
+}
+.minimenu1, .minimenu2{
+    margin: 10px;
+    font: inherit;
+    font-size: 16px;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+.menu_btn{
+    margin-right: 10px;
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    width: 80px;
+    height: 36px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    outline: 0;
+}
+
+button:last-child{
+    margin-right: 0;
+}
+
+.login-bg{
+    margin-top: 60px;
+    background-color: #212224;
+}
+.login-form{
+    width: 720px;
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+}
+
+.login-text{
+    padding: 40px 0;
+    font-size: 36px;
+    color: #1d78f5;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1em;
+    
+}
+label {
+    color: #7e848f;
+    font-size: 16px;
+    font-weight: 700;
+}
+.em-id, .pw-pw {
+    border: 0;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 100%;
+    height: 46px;
+    outline: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.id-size{
+    padding-bottom: 40px;
+    
+
+}
+.pw-size{
+    padding-bottom: 15px;    
+}
+.login-check{
+    display: inline;
+    
+}
+.keep-check{
+    
+}
+.keeptext{
+    display: inline;
+    color: white;
+    padding-top: 10px;
+}
+
+.login-botton{
+    margin: 16px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.acelogin{
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #1d78f5;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bitforexlogin{
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+    outline: 0;
+    background-color: #00bfad;
+    
+}
+.bit-logo{
+    display: inline-block;
+    height: 21px;
+    vertical-align: middle;
+}
+.bit-text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.login-hr{
+    margin: 35px 0 0 0;
+    padding-bottom: 23px;
+    border: 0;
+    border-top: 1px solid gray;
+}
+.under-login {
+    padding-bottom: 40px;
+}
+.under-login li{
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-top: 12px ;
+    background-color: #303235;
+    height: 64px;
+}
+.dontace-text, .forgot-text {
+    padding: 21px 14px ;
+}
+
+.footer-grid {
+    background-color: #484a4e;
+    width: 100%;
+ 
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    grid-template-areas:
+      ". . .";
+}
+.f-center1, .f-center2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;    
+    gap: 20px;
+}
+
+.f-text2-logo1 {
+    padding-bottom: 5px;
+}
+.f-text2-logo2{
+    padding-bottom: 49px;
+}
+.f-text-1, .f-text-3, .f-text2-1, .f-text2-2, .f-text3-1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+    
+}
+.f-text-2, .f-text3-2{
+    font-size: 13px;
+    color: #7e848f;
+}
+.f-logo2 {
+    
+    align-items: center;
+}
+.f-logo-1, .f-logo-2 {
+    display: inline;
+    height: 60px;
+    padding: 10px;
+}
+.f-left, .f-right{
+    background-color: #484a4e;
+    
+}
+.hr{
+    margin: 1em 0;
+    border: 0;
+    border-top: 1px solid gray;
+}
+.textli{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+.f-cookie{
+    font-size: 12px;
+    background-color: #3a3d42;
+    line-height: 36px;
+    text-align: center;
+    color: #7e848f ;
+}
+.f-notice{
+    background-color:  #212224;
+    color:#1d78f5;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+}
+.spancolor {
+    color: white;
+}
